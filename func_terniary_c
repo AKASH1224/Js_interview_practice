@@ -1,0 +1,3 @@
+const max =(a,b) => a>b ? a : b
+const max_no = max(10,20)
+console.log(max_no)

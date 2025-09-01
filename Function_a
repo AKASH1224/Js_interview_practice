@@ -8,7 +8,3 @@ const odd_even=(n)=>{
 }
 const odd_eve=odd_even(32)
 console.log(odd_eve)
-
-
-const even_odd=(n)=> n%2==0? "even":"odd"
-console.log(even_odd(32))
