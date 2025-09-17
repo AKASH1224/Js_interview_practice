@@ -19,3 +19,11 @@ if(x>10){
 }
 });
 Promises.then(()=>{console.log("Hit")}).catch(()=>{"Failed"})
+fetch('http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json').then((res)=>res.json()).
+then(data=> {const apps=data.applist.apps;
+    apps.forEach(element => {
+            console.log(element)
+    });
+
+})
+.catch((err)=>console.log(err))
