@@ -1,7 +1,7 @@
 const updatePreferences = async (userPreferences) => {
   try {
     const jsonValue = JSON.stringify(userPreferences)
-    await AsyncStorage.setItem(“preferences”, jsonValue)
+    await AsyncStorage.setItem("prefernces", jsonValue)
   } catch(e) {
    // Handle error
   }
