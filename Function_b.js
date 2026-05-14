@@ -2,8 +2,9 @@
 //   console.log("Hello "+ name);
 //  }
 //  greet("Akash")
-function add(a,b){
-return a+b;
+
+function multiply(a,b){
+    return a*b;
 }
-const result=add(2,3);
-console.log(result)
+const result =multiply(10,20);
+console.log(result);
